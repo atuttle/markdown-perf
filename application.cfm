@@ -1,0 +1,1 @@
+<cfapplication name="#hash( getCurrentTemplatePath() )#" />
