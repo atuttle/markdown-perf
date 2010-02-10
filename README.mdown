@@ -10,7 +10,7 @@ I'm working on a ColdFusion application that could benefit from Markdown. As suc
 
 I put together a reference implementation to start playing with MD#, but was quickly alerted by some friends that there is a native Java port of MD#, called [jMD](http://github.com/cletus/jmd). The theory was that since ColdFusion runs on the JVM, and jMD is native Java, it would run faster than a .Net assembly being accessed over a Java->.Net bridge.
 
-So far, my testing has proven otherwise. I'm not sure if it's a nuance of implementation, or if .Net is just better at text parsing with Regex, or something else... but the fact remains that so far my tests show that MD#, even running over the Java->.Net bridge, runs roughly twice as fast as jMD.
+So far, my testing has *[proven otherwise](http://spreadsheets.google.com/pub?key=tDyjflG97uuSxbCNPB-Rn0w&single=true&gid=0&output=html)*. I'm not sure if it's a nuance of implementation, or if .Net is just better at text parsing with Regex, or something else... but the fact remains that so far my tests show that MD#, even running over the Java->.Net bridge, runs roughly twice as fast as jMD.
 
 ### That's where you come in.
 
